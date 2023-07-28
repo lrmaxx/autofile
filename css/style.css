@@ -7,6 +7,21 @@
 /* *{
     font-family: Poppins,sans-serif;
 } */
+
+
+.icon_side::before{
+    display: inline-block;
+    margin-right: 10px;
+    align-self: center;
+    /* content: '\002b15'; */
+    content: "";
+    width: 10px;
+    height: 10px;
+    background:#00a3ff;
+    padding: 8px;
+    transform: rotate(45deg);
+
+}
 html {
     scroll-padding-top: 6rem;
   }
