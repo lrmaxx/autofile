@@ -312,20 +312,24 @@ h6,
     }
 
     .code + .dropdown-submenu {
-        display:none;
+        display:block;
         position:absolute;
-        
-       /* border: 1px solid black; */
         margin-top: 0;
-        opacity: 0;
+        /* opacity: 0; */
         visibility: hidden;
     
     }
-    .code:hover +   .dropdown-submenu {
+    .dropdown-submenu:hover{
         background: white;
-        display: block;
         visibility: visible;
-    
+    }
+    .dropdown-submenu:active{
+        visibility: visible;
+    }
+    .code:hover +   .dropdown-submenu {
+        left: 90%;;
+        background: white;
+        visibility: visible;
         opacity: 1;
     }
     
