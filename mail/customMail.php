@@ -31,6 +31,11 @@ require 'autoload.php';
 			'007' =>'Corporate Secretrial Service ',
 			'008' =>'Account Audit Tax ',
 			'009' =>'Doing Business As(DBA)',
+			'010' =>'Virtual Office',
+			'011' =>'Company formartion in USA',
+			'012' =>'Company formartion in UK',
+			'013' =>'Company formartion in Candada',
+			'014' =>'Company formartion in Singapore',
 		];
 		$status="fa";
 		$response ="jack";

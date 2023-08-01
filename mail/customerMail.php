@@ -29,6 +29,11 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 		'007' =>'Corporate Secretrial Service ',
 		'008' =>'Account Audit Tax ',
 		'009' =>'Doing Business As(DBA)',
+		'010' =>'Virtual Office',
+		'011' =>'Company formartion in USA',
+		'012' =>'Company formartion in UK',
+		'013' =>'Company formartion in Canada',
+		'014' =>'Company formartion in Singapore',
 		
 	];
 
