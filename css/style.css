@@ -22,6 +22,11 @@
     transform: rotate(45deg);
 
 }
+.vertical{
+    left: -40px;
+    transform: rotate(-90deg);
+    z-index:9999;
+}
 html {
     scroll-padding-top: 6rem;
   }
@@ -332,6 +337,7 @@ h6,
         visibility: visible;
         opacity: 1;
     }
+    
     
   
 
